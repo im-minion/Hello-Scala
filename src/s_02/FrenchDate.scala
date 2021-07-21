@@ -8,5 +8,6 @@ object FrenchDate {
     val now = new Date
     val dateFormat = getDateInstance(LONG, Locale.FRANCE)
     print(dateFormat format now)
+    print(dateFormat.format(now)) // this is also same
   }
 }
