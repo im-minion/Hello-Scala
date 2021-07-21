@@ -33,5 +33,10 @@ object FunIsObject {
 
   def main(args: Array[String]): Unit = {
     oncePerSecond(timeFlies)
+    // Anonymous Function
+    oncePerSecond(() => {
+      println("anonymously time flies")
+    })
+
   }
 }
