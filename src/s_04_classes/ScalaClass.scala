@@ -32,6 +32,7 @@ class Complex2(real: Double, imaginary: Double) {
   def im: Double = imaginary
 }
 
+// abstract classes
 abstract class Tree
 case class Sum(l: Tree, r: Tree) extends Tree
 case class Var(n: String) extends Tree
